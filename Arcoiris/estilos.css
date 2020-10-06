@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.rojo{
+    background-color: red;
+}
+.naranja{
+    background-color: orange;
+}
+.amarillo{
+    background-color: yellow;
+}
+.verde{
+    background-color: green;
+}
+.azul{
+    background-color: blue;
+}
+.indigo{
+    background-color: indigo;
+}
+.violeta{
+    background-color: violet;
+}
+h2{
+    font-size: 10vw;
+    padding-left: 7vw;
+    color:#ffffff;
+}
+h3{
+    font-size: 2vw;
+    margin-top: 0;
+    padding-left: 7vw;
+    color: #ffffff;
+}
+div{
+    height: 101vh;
+}
