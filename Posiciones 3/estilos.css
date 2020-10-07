@@ -1,0 +1,32 @@
+*{
+
+}
+.cajapadre{
+    position: relative;
+    height: 180px;
+    width: 240px;
+    overflow: hidden;
+}
+img{
+    width: 180px;
+}
+.contenedor{
+    position:absolute;
+    top: 0px;
+    width: 180px;
+    height: 230px;
+}
+.superior{
+    width: 180px;
+    height: 180px;
+}
+.inferior{
+    width: 180px;
+    height: 35px;
+    padding-top: 15px;
+    background-color: rgba(200,200,120,0.5);
+    text-align: center;
+}
+.contenedor:hover{
+    top: -45px;
+}
