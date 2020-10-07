@@ -1,0 +1,46 @@
+* {}
+
+main {
+    text-align: center;
+
+}
+
+.boton {
+    background-color: aquamarine;
+    font: bold;
+    color: blue;
+    font-size: large;
+    border: dashed;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.desplegable {
+    position: relative;
+    display: inline-block;
+}
+
+.contenido {
+    display: none;
+    background-color: chartreuse;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px purple;
+    z-index: 1;
+    position: absolute;
+}
+
+.contenido a {
+    font-weight: bold;
+    color: seagreen;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    margin-top: 3px;
+    background-color: snow;
+}
+.contenido a:hover{
+    background-color: violet;
+}
+.desplegable:hover .contenido{
+    display: block;
+}
