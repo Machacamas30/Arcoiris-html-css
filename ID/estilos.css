@@ -1,0 +1,30 @@
+*{
+    background-color: grey;
+}
+h1{
+    border: 1px solid gray;
+}
+#destacado{
+    border: 1px solid gray;
+}
+.intro{
+    border: 3px solid red;
+}
+[id]{
+    background-color: blanchedalmond;
+}
+[id=especial]{
+    border: 1px dashed green;
+}
+ul + p{
+    background-color: cadetblue;
+}
+article ~ ul{
+border: 1px solid red;
+}
+section>p{
+    border: 3px solid peachpuff;
+}
+section p{
+    border: dashed 2px greenyellow;
+}

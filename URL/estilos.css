@@ -1,0 +1,40 @@
+* {}
+
+div {
+    border: 2px dashed red;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+    background-color: royalblue;
+    font-size:100px;
+
+}
+
+nav {
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+a:link {
+    color: salmon;
+    text-decoration: none;
+}
+
+a:visited {
+    color: violet;
+    text-decoration: none;
+}
+
+a:active {
+    font-size: 2cm;
+    text-decoration: none;
+}
+
+div:hover {
+ background-color: springgreen;
+}
+body{
+    font-size: 100px;
+}
