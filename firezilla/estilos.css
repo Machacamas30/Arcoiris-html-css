@@ -1,0 +1,63 @@
+* {
+    font-family: 'Staatliches', cursive;
+}
+
+header {
+    background-color: aqua;
+    padding: 15px;
+    height: 200px;
+}
+
+.logo {
+    height: 190px;
+    background-color: blue;
+    width: 190px;
+    float: left;
+}
+
+.titulo {
+    background-color: blueviolet;
+    width: 80%;
+    float: right;
+    height: 190px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+main {
+    clear: both;
+    background-color: chartreuse;
+    height: 500px;
+}
+
+footer {
+    background-color: blueviolet;
+    height: 200px;
+}
+
+.pie {
+    height: 190px;
+    width: 30%;
+    background: cadetblue;
+    margin: 5px 10px;
+    display: inline-block;
+}
+.contenido{
+    background-color: cornflowerblue;
+    height: 150px;
+}
+section{
+    padding: 5px;
+    height: 320px;
+    background-color: darkcyan;
+    margin-top: 15px;
+}
+article{
+    width: 40%;
+    height: 310px;
+    background-color: darkmagenta;
+    
+}

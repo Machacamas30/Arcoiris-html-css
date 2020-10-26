@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilos.css">
+    <title>
+        Formularios
+    </title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <form name="formulario" method="get" action="procesar.php">
+            <lable>Nombre:<input type="text" name="nombre" id="nombre" value=""></lable>
+
+            <p>
+                <lable for="email">Email:</lable>
+                <input type="email" name="email" id="email" value="tu email aquí">
+            </p>
+
+    </fieldset>
+
+    <p>Comentarios:</p>
+
+    <p><textarea name="comentarios" id="comentario" cols="50" rows="10"></textarea></p>
+    <fieldset>
+        <legend>Opciones de Selección</legend>
+        <p>
+            Botones de Radio
+        </p>
+        <lable><input type="radio" name="radio" value="uno" checked>Uno</lable>
+        <lable><input type="radio" name="radio" value="uno">Dos</lable>
+        <lable><input type="radio" name="radio" value="uno">Tres</lable>
+        <lable><input type="radio" name="radio" value="uno">Cuatro</lable>
+        <lable><input type="radio" name="radio" value="uno">Cinco</lable><br><br><br>
+        <p>Checkbox - elección múltiple</p>
+
+        <label><input type="checkbox" name="check" value="uno" checked>Uno</label>
+        <label><input type="checkbox" name="check" value="uno">Dos</label>
+        <label><input type="checkbox" name="check" value="uno">Tres</label>
+        <label><input type="checkbox" name="check" value="uno">Cuatro</label>
+        <label><input type="checkbox" name="check" value="uno">Cinco</label><br><br>
+
+        <label for="seleccion">Selecciona entre las siguientes</label>
+        <select name="seleccion" id="seleccion">
+            <option value="primero">Primero</option>
+            <option value="primero">Segundo</option>
+            <option value="primero">Tercero</option>
+            <option value="primero">Cuarto</option>
+            <option value="primero">Quinto</option>
+        </select><br><br>
+    </fieldset>
+    <!-- <input type="submit" value="Envia el formulario"> -->
+    <button type="submit"><img src="descarga.jpg"></button>
+    </form>
+
+</body>
+
+</html>

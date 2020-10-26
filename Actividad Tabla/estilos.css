@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+    width: 90%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+th {
+    border: 1px black solid;
+    padding: 5px;
+    text-align: left;
+    font-size: 0.5cm;
+    background-color: #EBEDEF;
+}
+
+td {
+    border: solid 1px black;
+}
+
+#qty {
+    width: 20%;
+}
+
+#div2 {
+    border: solid 35px #EBEDEF;
+    width: 40%;
+    height: 100%;
+}
+
+#div1 {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+caption{
+    font-size: 0.5cm;
+}
